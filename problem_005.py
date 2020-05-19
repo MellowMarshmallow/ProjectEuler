@@ -1,3 +1,5 @@
+# https://math.stackexchange.com/questions/999641/finding-the-minimum-number-which-can-be-divided-by-2-3-4-5-6-1000?rq=1
+
 def get_set_of_primes(n): # Sieve of Erathosetenes
     if n < 2:
         return []
