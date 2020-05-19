@@ -25,8 +25,7 @@ def solution(n):
         # Check that n / primes[index] is a natural number (not float)
         if (n / primes[index]) == int(n / primes[index]):
             n /= primes[index]
-            if largest < primes[index]:
-                largest = primes[index]
+            largest = primes[index]
             index = 0
         else:
             index += 1
