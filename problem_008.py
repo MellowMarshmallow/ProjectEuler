@@ -12,7 +12,7 @@ def solution(series, digits):
 
         # Iterate through each sub-substring
         for i in range(0, len(substring) - digits + 1):
-            product = 1 # For some reason without this line, the algorithm doesn't work
+            product = 1 # Required for next iteration
             # Get the product of the digits of the sub-substring
             for j in range(i, i + digits):
                 product *= int(substring[j])
