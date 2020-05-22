@@ -22,8 +22,7 @@ def solution(n: int) -> int:
 
     # We can define a function that returns the number of factors
 
-    # While the function returns false, we can update "K"
-    # Then once the function returns true, we return "K"
+    # While the function's return is smaller than our target, we loop
 
     # Although I'm not sure, I believe that:
     # number of factors of K_n >= number of factors of K_n-1
