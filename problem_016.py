@@ -7,4 +7,3 @@ def brute_force(power: int) -> int:
     return Sum
 
 print(brute_force(1000)) # Output: 1366
-    
